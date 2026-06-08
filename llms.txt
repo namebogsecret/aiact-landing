@@ -25,6 +25,7 @@
 
 ## Links
 - Landing page & purchase: https://aiact.podlevskikh.com/
+- Guide — How an SME complies with EU AI Act Article 4: https://aiact.podlevskikh.com/how-an-sme-complies-with-eu-ai-act-article-4.html
 - Free Article 4 Readiness Checklist: https://aiact.podlevskikh.com/#lead
 - Author: https://podlevskikh.com
 - Contact: vladimir@podlevskikh.com
