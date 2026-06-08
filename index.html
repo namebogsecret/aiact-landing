@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EU AI Act Article 4 Compliance Kit — get your SME compliant in a weekend, without a €3,000 lawyer</title>
+<meta name="description" content="Editable AI-use policy, staff training deck, role briefs, quiz, certificates and evidence log — everything an EU SME needs to meet AI Act Article 4 (AI literacy). Download instantly. Enforcement starts 2 August 2026." />
+
+<!-- ════════════════════════════════════════════════════════════════════
+     CONFIG — edit these, save, push to gh-pages. Nothing else needed.
+     Checkout = Lemon Squeezy (Merchant of Record: handles EU VAT + delivery).
+     Replace the BUY_* links once the Lemon Squeezy products exist.
+     ════════════════════════════════════════════════════════════════════ -->
+<script>
+  const CFG = {
+    buyStarter: "#",   // Lemon Squeezy €149 checkout URL
+    buyPro:     "#",   // Lemon Squeezy €299 checkout URL  (main SKU)
+    buyProVid:  "#",   // Lemon Squeezy €399 checkout URL
+    workshop:   "mailto:vladimir@podlevskikh.com?subject=AI%20Act%20Art.4%20live%20workshop",
+    resellers:  "mailto:vladimir@podlevskikh.com?subject=AI%20Act%20Kit%20white-label%20licence",
+    leadForm:   "https://formsubmit.co/ajax/vladimir@podlevskikh.com",
+    deadline:   "2026-08-02T00:00:00Z"
+  };
+</script>
+
+<meta property="og:title" content="EU AI Act Article 4 Compliance Kit for SMEs" />
+<meta property="og:description" content="Get your company compliant with the AI Act's AI-literacy duty in a weekend — policy, training, evidence pack. Enforcement starts 2 Aug 2026." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://aiact.podlevskikh.com/" />
+<link rel="canonical" href="https://aiact.podlevskikh.com/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230b2540'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='30' font-weight='700' fill='%23ffd35c' text-anchor='middle'%3E4%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+
+<!-- JSON-LD: Product + FAQ (GEO/AEO — citable by LLMs) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "EU AI Act Article 4 Compliance Kit",
+  "description": "A downloadable kit of editable templates that helps an EU SME meet the AI Act Article 4 AI-literacy obligation: AI-use policy, staff training deck, role briefs, assessment quiz, certificates and an evidence log.",
+  "brand": { "@type": "Brand", "name": "Podlevskikh" },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "EUR",
+    "lowPrice": "149",
+    "highPrice": "399",
+    "offerCount": "3"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is EU AI Act Article 4?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Article 4 of the EU AI Act is the AI-literacy obligation. Since 2 February 2025 any company that provides or uses AI systems whose output is used in the EU must ensure its staff have a sufficient level of AI literacy, proportionate to their role. It applies to companies outside the EU too if their AI output is used in the EU." } },
+    { "@type": "Question", "name": "When is Article 4 enforced?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The duty has applied since 2 February 2025. National authorities gain supervision and penalty powers on 2 August 2026. The penalty tier reaches up to €7.5 million or 1% of global annual turnover, whichever is higher." } },
+    { "@type": "Question", "name": "How does an SME comply with Article 4?",
+      "acceptedAnswer": { "@type": "Answer", "text": "In practice: put a short AI-use policy in place, train staff proportionally to their role, and keep a record proving the training happened. The regulator did not set required hours or an approved curriculum — compliance is process-based and proven by documentation." } }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --navy:#0b2540; --navy2:#13355c; --gold:#e3a008; --gold2:#ffd35c;
+    --ink:#1a2230; --muted:#5b6676; --line:#e6e9ef; --bg:#fbfaf7; --card:#ffffff;
+    --ok:#1a7f5a; --warn:#b4401f;
+  }
+  *{box-sizing:border-box} html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Hanken Grotesk',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  h1,h2,h3{font-family:'Newsreader',Georgia,serif;line-height:1.18;font-weight:600;letter-spacing:-.01em}
+  h1{font-size:clamp(2rem,4.6vw,3.3rem);margin:.2em 0}
+  h2{font-size:clamp(1.5rem,3vw,2.2rem);margin:0 0 .5em}
+  a{color:var(--navy2)}
+  .btn{display:inline-block;background:var(--gold);color:#231a00;font-weight:700;padding:14px 26px;border-radius:10px;text-decoration:none;border:none;cursor:pointer;font-size:1rem;transition:transform .08s,box-shadow .2s;box-shadow:0 4px 14px rgba(227,160,8,.32)}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(227,160,8,.42)}
+  .btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5);box-shadow:none}
+  .btn.dark{background:var(--navy);color:#fff;box-shadow:0 4px 14px rgba(11,37,64,.25)}
+
+  /* HERO */
+  header.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#eef3fa;padding:14px 0 70px;position:relative;overflow:hidden}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-size:.95rem}
+  .nav .brand{font-family:'Newsreader',serif;font-weight:600;font-size:1.15rem;color:#fff}
+  .nav .brand b{color:var(--gold2)}
+  .nav a{color:#cdd8e8;text-decoration:none;margin-left:18px}
+  .nav a:hover{color:#fff}
+  .pill{display:inline-block;background:rgba(255,211,92,.14);color:var(--gold2);border:1px solid rgba(255,211,92,.35);padding:5px 13px;border-radius:100px;font-size:.82rem;font-weight:600;letter-spacing:.02em;margin-bottom:18px}
+  .hero p.lead{font-size:1.18rem;color:#c9d6e8;max-width:640px;margin:.4em 0 1.4em}
+  .hero .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .trust{margin-top:26px;font-size:.9rem;color:#9fb2cb;display:flex;gap:22px;flex-wrap:wrap}
+  .trust b{color:#dce6f3}
+
+  /* COUNTDOWN */
+  .countdown{margin:34px 0 0;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .countdown .label{font-size:.9rem;color:#9fb2cb;width:100%;margin-bottom:2px}
+  .cd-box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:10px 14px;text-align:center;min-width:70px}
+  .cd-box .n{font-size:1.7rem;font-weight:800;color:var(--gold2);font-family:'Hanken Grotesk',sans-serif;line-height:1}
+  .cd-box .u{font-size:.7rem;color:#9fb2cb;text-transform:uppercase;letter-spacing:.08em}
+
+  section{padding:64px 0}
+  .section-tag{color:var(--gold);font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+  .grid{display:grid;gap:20px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g2{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .card h3{font-size:1.18rem;margin:.1em 0 .4em}
+  .card .ic{font-size:1.6rem;margin-bottom:6px}
+  .muted{color:var(--muted)}
+
+  /* PAIN strip */
+  .pain{background:#fff6f1;border:1px solid #f4d9cb;border-radius:14px;padding:26px 28px}
+  .pain ul{margin:.4em 0 0;padding-left:1.1em} .pain li{margin:.3em 0}
+
+  /* contents list */
+  .contents{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media(max-width:820px){.contents{grid-template-columns:1fr}}
+  .file{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .file .num{flex:0 0 auto;width:30px;height:30px;border-radius:8px;background:var(--navy);color:var(--gold2);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+  .file b{display:block}
+
+  /* pricing */
+  .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+  @media(max-width:820px){.price-grid{grid-template-columns:1fr}}
+  .tier{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column}
+  .tier.feat{border:2px solid var(--gold);box-shadow:0 14px 40px rgba(11,37,64,.10);position:relative}
+  .tier.feat::before{content:'MOST POPULAR';position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:#231a00;font-size:.7rem;font-weight:800;letter-spacing:.08em;padding:4px 12px;border-radius:100px}
+  .tier .name{font-weight:700;font-size:1.1rem}
+  .tier .amt{font-family:'Newsreader',serif;font-size:2.4rem;font-weight:600;margin:.1em 0}
+  .tier .amt small{font-size:1rem;color:var(--muted)}
+  .tier ul{list-style:none;padding:0;margin:14px 0 22px;flex:1}
+  .tier li{padding:7px 0 7px 26px;position:relative;font-size:.96rem;border-top:1px solid var(--line)}
+  .tier li:first-child{border-top:none}
+  .tier li::before{content:'✓';position:absolute;left:0;color:var(--ok);font-weight:800}
+  .tier li.no{color:var(--muted)} .tier li.no::before{content:'–';color:var(--muted)}
+  .tier .btn{width:100%;text-align:center}
+
+  /* lead magnet */
+  .lead{background:linear-gradient(150deg,var(--navy),var(--navy2));color:#eef3fa;border-radius:18px;padding:42px 36px}
+  .lead h2{color:#fff} .lead p{color:#c9d6e8}
+  .lead form{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;max-width:520px}
+  .lead input{flex:1;min-width:220px;padding:13px 16px;border-radius:10px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;font-size:1rem}
+  .lead input::placeholder{color:#9fb2cb}
+  .lead .msg{margin-top:12px;font-size:.92rem;color:var(--gold2);min-height:1.2em}
+
+  /* faq */
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 20px;margin-bottom:12px}
+  details summary{cursor:pointer;font-weight:600;padding:16px 0;list-style:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{content:'+';float:right;color:var(--gold);font-weight:800}
+  details[open] summary::after{content:'–'}
+  details .a{padding:0 0 16px;color:var(--muted)}
+
+  /* author */
+  .author{display:flex;gap:22px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+
+  footer{background:var(--navy);color:#9fb2cb;padding:42px 0;font-size:.9rem}
+  footer a{color:#cdd8e8} footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .disc{font-size:.82rem;color:#7c8ca3;max-width:680px;margin-top:14px;line-height:1.55}
+</style>
+</head>
+<body>
+
+<!-- ══════════ HERO ══════════ -->
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav">
+      <span class="brand">AI Act <b>· Article 4</b> Kit</span>
+      <span>
+        <a href="#whats-inside">What's inside</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn" style="padding:9px 18px" href="#pricing">Get the kit</a>
+      </span>
+    </nav>
+
+    <div style="max-width:760px;padding-top:34px">
+      <span class="pill">⚖️ EU AI Act · enforcement begins 2 August 2026</span>
+      <h1>Make your company compliant with the AI Act's AI-literacy duty — in a weekend.</h1>
+      <p class="lead">A complete, editable kit for SMEs: AI-use policy, staff training, role briefs, a quiz, certificates and the evidence log auditors ask for. No €3,000 consultant. Download instantly, deploy yourself.</p>
+      <div class="cta-row">
+        <a class="btn" href="#pricing">Get the kit →</a>
+        <a class="btn ghost" href="#lead">Free: Article 4 readiness checklist</a>
+      </div>
+
+      <div class="countdown" id="cd">
+        <span class="label">Time until national authorities can supervise &amp; fine under Article 4:</span>
+        <div class="cd-box"><div class="n" id="cd-d">—</div><div class="u">days</div></div>
+        <div class="cd-box"><div class="n" id="cd-h">—</div><div class="u">hours</div></div>
+        <div class="cd-box"><div class="n" id="cd-m">—</div><div class="u">min</div></div>
+        <div class="cd-box"><div class="n" id="cd-s">—</div><div class="u">sec</div></div>
+      </div>
+
+      <div class="trust">
+        <span><b>Instant</b> download</span>
+        <span><b>Editable</b> templates</span>
+        <span><b>EU VAT</b> handled at checkout</span>
+        <span><b>Mapped to</b> official EU guidance</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════ PAIN / WHY ══════════ -->
+<section>
+  <div class="wrap">
+    <div class="pain">
+      <div class="section-tag">The problem</div>
+      <h2 style="margin-bottom:.3em">You already use ChatGPT, Copilot or Claude at work. That means Article 4 already applies to you.</h2>
+      <p class="muted" style="margin-top:0">Since 2 February 2025, every company whose AI output is used in the EU must give staff a “sufficient level of AI literacy.” The catch:</p>
+      <ul>
+        <li>The regulator <b>deliberately didn't say</b> how many hours, which curriculum, or what counts as “sufficient.”</li>
+        <li>Consultants quote <b>€3,000–5,000</b> for what should be a set of templates.</li>
+        <li>From <b>2 August 2026</b>, national authorities can supervise and fine — up to <b>€7.5M or 1% of global turnover</b>.</li>
+      </ul>
+      <p style="margin-bottom:0"><b>This kit is the ready-made answer:</b> everything Article 4 expects, written for a non-lawyer to deploy over a weekend.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHAT ARTICLE 4 NEEDS (3 cards) ══════════ -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="section-tag">What compliance actually requires</div>
+    <h2>Three things — and the kit covers all three</h2>
+    <div class="grid g3" style="margin-top:24px">
+      <div class="card"><div class="ic">📄</div><h3>1. A written AI-use policy</h3><p class="muted">Which tools are allowed, what data may never be entered, who is responsible. 2–3 pages, not 50.</p></div>
+      <div class="card"><div class="ic">🎓</div><h3>2. Staff training by role</h3><p class="muted">Proportional to each role's risk — leadership, HR, marketing, developers, customer service.</p></div>
+      <div class="card"><div class="ic">🗂️</div><h3>3. A record that proves it</h3><p class="muted">Attendance, a quiz, certificates, an audit one-pager. Compliance is proven by documentation.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHAT'S INSIDE ══════════ -->
+<section id="whats-inside" style="background:#f4f1ea;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-tag">What's inside the kit</div>
+    <h2>Seven ready-to-use documents</h2>
+    <p class="muted" style="max-width:620px">Editable formats. Fill the blanks, deliver the training, keep the folder. Languages: English (DE / FR / ES / IT on request).</p>
+    <div class="contents" style="margin-top:24px">
+      <div class="file"><div class="num">0</div><div><b>Start-Here guide</b><span class="muted">Deploy the whole kit in 3 steps over a weekend.</span></div></div>
+      <div class="file"><div class="num">1</div><div><b>AI-Use Policy template</b><span class="muted">Editable 2–3-page policy: approved tools, data rules, responsible person.</span></div></div>
+      <div class="file"><div class="num">2</div><div><b>Staff Training Deck</b><span class="muted">60–90-min slide deck with speaker notes — show it to your team.</span></div></div>
+      <div class="file"><div class="num">3</div><div><b>Role Briefs ×5</b><span class="muted">One-page memos for leadership, HR, marketing, developers, customer service.</span></div></div>
+      <div class="file"><div class="num">4</div><div><b>Evidence Pack</b><span class="muted">Attendance log, 10-question quiz + answer key, certificate, audit one-pager.</span></div></div>
+      <div class="file"><div class="num">5</div><div><b>AI Inventory &amp; Risk-Tier sheet</b><span class="muted">List your AI tools and classify their risk level under the Act.</span></div></div>
+      <div class="file"><div class="num">6</div><div><b>Compliance Map + Disclaimer</b><span class="muted">“Requirement → how this kit addresses it,” mapped to official EU guidance.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PRICING ══════════ -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-tag" style="text-align:center">Pricing</div>
+    <h2 style="text-align:center">One-time purchase. Yours forever.</h2>
+    <p class="muted" style="text-align:center;max-width:540px;margin:0 auto 30px">Against a potential €7.5M penalty and a €3–5K consultant, this is a rounding error.</p>
+    <div class="price-grid">
+      <div class="tier">
+        <div class="name">Starter</div>
+        <div class="amt">€149</div>
+        <ul>
+          <li>AI-Use Policy template</li>
+          <li>Compliance map + disclaimer</li>
+          <li>AI inventory &amp; risk-tier sheet</li>
+          <li class="no">Training deck</li>
+          <li class="no">Evidence pack &amp; certificates</li>
+        </ul>
+        <a class="btn dark" href="#" data-buy="buyStarter">Get Starter</a>
+      </div>
+      <div class="tier feat">
+        <div class="name">Pro</div>
+        <div class="amt">€299</div>
+        <ul>
+          <li>Everything in Starter</li>
+          <li><b>Staff training deck</b> (60–90 min)</li>
+          <li><b>5 role briefs</b></li>
+          <li><b>Evidence pack</b>: log, quiz, certificates</li>
+          <li>Audit one-pager</li>
+        </ul>
+        <a class="btn" href="#" data-buy="buyPro">Get Pro</a>
+      </div>
+      <div class="tier">
+        <div class="name">Pro + Video</div>
+        <div class="amt">€399</div>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>Recorded 60–90 min training video</li>
+          <li>Show it = “training delivered”</li>
+          <li>Notion copy of the whole kit</li>
+          <li>Priority email support</li>
+        </ul>
+        <a class="btn dark" href="#" data-buy="buyProVid">Get Pro + Video</a>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-top:26px">
+      <div class="card">
+        <h3>🧑‍🏫 Want it done with you?</h3>
+        <p class="muted">Add a live 2–3h workshop delivered by a physicist and educator with 20+ years' teaching experience — your staff trained and your evidence pack filled in, turnkey.</p>
+        <a class="btn dark" href="#" data-buy="workshop">Enquire about a live workshop →</a>
+      </div>
+      <div class="card">
+        <h3>🤝 Accountants, DPOs &amp; IT firms</h3>
+        <p class="muted">White-label the kit and offer Article 4 compliance to your whole client base under your own brand. Licences from €990.</p>
+        <a class="btn dark" href="#" data-buy="resellers">Get a white-label licence →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ LEAD MAGNET ══════════ -->
+<section id="lead">
+  <div class="wrap">
+    <div class="lead">
+      <div class="section-tag" style="color:var(--gold2)">Free</div>
+      <h2>Not sure where you stand? Get the Article 4 Readiness Checklist — free.</h2>
+      <p>A one-page self-check: 12 questions to see how exposed your company is, and exactly what to fix first. No cost, instant.</p>
+      <form id="leadForm">
+        <input type="email" name="email" placeholder="you@company.com" required />
+        <button class="btn" type="submit">Send me the checklist</button>
+        <input type="hidden" name="_subject" value="AI Act Kit — checklist request" />
+      </form>
+      <div class="msg" id="leadMsg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ AUTHOR / TRUST ══════════ -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="author">
+      <div style="flex:1;min-width:260px">
+        <div class="section-tag">Who's behind it</div>
+        <h3 style="margin-top:0">Built by an educator, not a box-ticker</h3>
+        <p class="muted" style="margin-bottom:0">Created by Vladimir Podlevskikh — MSU physicist and teacher of 20+ years. The materials are built to actually <i>teach</i> your staff, not just generate paperwork. Every template is mapped to official EU AI Act Service Desk guidance and written from scratch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FAQ ══════════ -->
+<section id="faq" style="background:#f4f1ea;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-tag">Questions</div>
+    <h2>FAQ</h2>
+    <div style="margin-top:20px">
+      <details open><summary>Does Article 4 really apply to my company?</summary><div class="a">If your staff use AI tools (ChatGPT, Copilot, Claude, etc.) and your output reaches the EU — yes. The duty is extraterritorial, like GDPR. It has applied since 2 February 2025.</div></details>
+      <details><summary>Is this legal advice or an official certification?</summary><div class="a">No. This is educational material and editable templates that help you meet Article 4's requirements. It is not legal advice, creates no lawyer-client relationship, and is not an official certificate of compliance. You remain responsible for your own compliance; consult a qualified lawyer for your specific situation.</div></details>
+      <details><summary>How long does it take to deploy?</summary><div class="a">A weekend. Step 1: customise the policy and inventory. Step 2: deliver the ~60–90 min training and run the quiz. Step 3: record it — attendance log, certificates, audit one-pager. The Start-Here guide walks you through all three.</div></details>
+      <details><summary>What format are the files in?</summary><div class="a">Editable documents (policy, deck, sheets) plus printable PDFs. You fill in placeholders and brand them as your own.</div></details>
+      <details><summary>How do I pay, and is VAT handled?</summary><div class="a">Checkout is via a Merchant of Record, which collects and remits EU VAT for you and sends a proper invoice. Card payment, instant download.</div></details>
+      <details><summary>Will it stay up to date?</summary><div class="a">The Act evolves (codes of practice, guidance). Optional update subscriptions are available so your kit stays current.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FINAL CTA ══════════ -->
+<section style="text-align:center">
+  <div class="wrap">
+    <h2>The deadline is fixed. The fix is one download away.</h2>
+    <p class="muted" style="max-width:560px;margin:0 auto 24px">Get compliant this weekend — policy, training and proof, ready to deploy.</p>
+    <a class="btn" href="#pricing" style="font-size:1.1rem;padding:16px 34px">Get the AI Act Article 4 Kit →</a>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="wrap">
+    <div>
+      <div style="font-family:'Newsreader',serif;color:#fff;font-size:1.1rem">AI Act · Article 4 Compliance Kit</div>
+      <div style="margin-top:6px"><a href="mailto:vladimir@podlevskikh.com">vladimir@podlevskikh.com</a> · <a href="https://podlevskikh.com">podlevskikh.com</a></div>
+    </div>
+    <div class="disc">
+      <b>Disclaimer.</b> This kit provides educational material and editable templates to help organisations address the AI-literacy obligation in Article 4 of the EU AI Act. It does not constitute legal advice, creates no lawyer-client relationship, and is not an official certification of compliance. It is mapped to publicly available official EU guidance. Each organisation remains responsible for its own compliance and should seek qualified legal advice for its specific circumstances. © 2026 Vladimir Podlevskikh.
+    </div>
+  </div>
+</footer>
+
+<script>
+  // wire buy buttons from CFG
+  document.querySelectorAll('[data-buy]').forEach(a=>{
+    const k=a.getAttribute('data-buy'); if(CFG[k]) a.setAttribute('href',CFG[k]);
+  });
+
+  // countdown
+  (function(){
+    const target=new Date(CFG.deadline).getTime();
+    const d=document.getElementById('cd-d'),h=document.getElementById('cd-h'),
+          m=document.getElementById('cd-m'),s=document.getElementById('cd-s');
+    function tick(){
+      const now=Date.now(),diff=target-now;
+      if(diff<=0){document.getElementById('cd').innerHTML='<span class="label" style="color:#ffd35c">Article 4 is now enforceable. Don\'t wait for an audit.</span>';return;}
+      const dd=Math.floor(diff/864e5),hh=Math.floor(diff%864e5/36e5),
+            mm=Math.floor(diff%36e5/6e4),ss=Math.floor(diff%6e4/1e3);
+      d.textContent=dd;h.textContent=String(hh).padStart(2,'0');
+      m.textContent=String(mm).padStart(2,'0');s.textContent=String(ss).padStart(2,'0');
+    }
+    tick();setInterval(tick,1000);
+  })();
+
+  // lead form → FormSubmit AJAX
+  const lf=document.getElementById('leadForm'),lm=document.getElementById('leadMsg');
+  lf.addEventListener('submit',async e=>{
+    e.preventDefault();lm.style.color='#ffd35c';lm.textContent='Sending…';
+    try{
+      const r=await fetch(CFG.leadForm,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body:JSON.stringify({email:lf.email.value,_subject:'AI Act Kit — checklist request'})});
+      if(r.ok){lm.textContent='✓ Done — check your inbox for the Article 4 Readiness Checklist.';lf.reset();}
+      else{lm.style.color='#ff9b7a';lm.textContent='Something went wrong — email vladimir@podlevskikh.com and we\'ll send it.';}
+    }catch{lm.style.color='#ff9b7a';lm.textContent='Network error — email vladimir@podlevskikh.com and we\'ll send it.';}
+  });
+</script>
+</body>
+</html>

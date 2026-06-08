@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI crawlers explicitly welcome (GEO/AEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://aiact.podlevskikh.com/sitemap.xml
