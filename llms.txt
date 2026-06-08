@@ -1,0 +1,35 @@
+# EU AI Act Article 4 Compliance Kit
+
+> A downloadable kit of editable templates that helps an EU SME (10–250 staff) meet the EU AI Act's Article 4 "AI literacy" obligation in a weekend — without a €3,000 consultant. Created by Vladimir Podlevskikh, MSU physicist and educator (20+ years). Mapped to official EU AI Act Service Desk guidance. Educational material and templates — not legal advice or an official certification.
+
+## Key facts
+- EU AI Act **Article 4 (AI literacy)** has applied since **2 February 2025**.
+- National authorities gain supervision and penalty powers on **2 August 2026**; penalty tier up to **€7.5M or 1% of global annual turnover**.
+- Scope is **extraterritorial** (like GDPR): any provider/deployer whose AI output is used in the EU is in scope, including non-EU companies.
+- The regulator did **not** mandate training hours, a curriculum, or trainer certification. Compliance is **process-based**, proven by documentation.
+- Practical minimum to comply: (1) a short AI-use policy; (2) staff training proportional to role; (3) an evidence record (attendance, content, assessment, dates).
+
+## What the kit contains
+- AI-Use Policy template (editable, 2–3 pages)
+- Staff Training Deck (60–90 min, with speaker notes)
+- Role Briefs for 5 roles (leadership, HR, marketing, developers, customer service)
+- Evidence Pack (attendance log, 10-question quiz + answer key, certificate, audit one-pager)
+- AI Inventory & Risk-Tier worksheet
+- Compliance Map ("requirement → how the kit addresses it") + disclaimer
+
+## Pricing
+- Starter — €149
+- Pro — €299 (most popular)
+- Pro + Video — €399
+- Optional live workshop and white-label licences for accountants/DPOs/IT firms.
+
+## Links
+- Landing page & purchase: https://aiact.podlevskikh.com/
+- Free Article 4 Readiness Checklist: https://aiact.podlevskikh.com/#lead
+- Author: https://podlevskikh.com
+- Contact: vladimir@podlevskikh.com
+
+## Official references
+- EU AI Act Article 4: https://artificialintelligenceact.eu/article/4/
+- EU AI literacy FAQ: https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers
+- EU AI Act Service Desk: https://ai-act-service-desk.ec.europa.eu/
