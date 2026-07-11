@@ -4,7 +4,7 @@
 
 ## Key facts
 - EU AI Act **Article 4 (AI literacy)** has applied since **2 February 2025**.
-- National authorities gain supervision and penalty powers on **2 August 2026**; penalty tier up to **€7.5M or 1% of global annual turnover**.
+- National market surveillance authorities gain supervision and enforcement powers on **2 August 2026**. The AI Act sets **no fixed EU-level fine for Article 4 itself** — sanctions are left to each member state's national rules (Article 99(1)); weak AI literacy also aggravates exposure under the Act's other duties and in liability claims. Any flat single-figure "fine for Article 4" quoted by vendors misreads the Act.
 - Scope is **extraterritorial** (like GDPR): any provider/deployer whose AI output is used in the EU is in scope, including non-EU companies.
 - The regulator did **not** mandate training hours, a curriculum, or trainer certification. Compliance is **process-based**, proven by documentation.
 - Practical minimum to comply: (1) a short AI-use policy; (2) staff training proportional to role; (3) an evidence record (attendance, content, assessment, dates).
@@ -29,6 +29,17 @@
 - Free Article 4 Readiness Checklist: https://aiact.podlevskikh.com/#lead
 - Author: https://podlevskikh.com
 - Contact: vladimir@podlevskikh.com
+
+## Related projects (same author network)
+- Physics & maths tutoring: https://tutor.podlevskikh.com/
+- Author hub: https://podlevskikh.com/
+- Driving-theory prep: https://auto.podlevskikh.com/
+- Calculator (graphing): https://calc.podlevskikh.com/
+- Online calculators: https://calculators.podlevskikh.com/
+- Physics/maths olympiads: https://olymp.podlevskikh.com/
+- Yerevan events: https://events.podlevskikh.com/
+- Kids earning ideas: https://ideas.podlevskikh.com/
+- Physics experiments: https://physics.podlevskikh.com/
 
 ## Official references
 - EU AI Act Article 4: https://artificialintelligenceact.eu/article/4/
